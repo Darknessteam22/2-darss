@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "fred400";
+    src: url("../fonts/fred400.ttf");
+}
+@font-face {
+    font-family: "fred600";
+    src: url("../fonts/fred6543.ttf");
+}
+@font-face {
+    font-family: "Hind400";
+    src: url("../fonts/Hind400.ttf");
+}
+@font-face {
+    font-family: "Hind600";
+    src: url("../fonts/Hind600.ttf");
+}
+@font-face {
+    font-family: "Hind700";
+    src: url("../fonts/Hind700.ttf");
+}
+@font-face {
+    font-family: "robot400";
+    src: url("../fonts/robot400.ttf");
+}
+@font-face {
+    font-family: "robot500";
+    src: url("../fonts/robot500.ttf");
+}
+@font-face {
+    font-family: "robot700";
+    src: url("../fonts/robot700.ttf");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0px auto;
+    position: relative;
+}
+
+main {
+    width: 100%;
+    height: 862px;
+    background-color: #F2CEDA;
+    padding: 10px 230px 213px 245px;
+}
+
+header {
+    width: 1125px;
+    height: 79px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 196px;
+}
+
+.ul {
+    display: flex;
+    gap: 40px;
+}
+
+.li {
+    list-style-type: none;
+    color: rgba(21, 1, 1, 1);
+    cursor: pointer;
+    transition: .5s;
+    font-family: "robot700";
+}
+
+.li:hover {
+    color: rgba(210, 49, 102, 1);
+    transition: .5s;
+}
+
+.btn1 {
+    width: 165px;
+    height: 49px;
+    background-color: rgba(210, 49, 102, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: "Hind700";
+}
+
+.btn1:hover {
+    background-color: transparent;
+    border: 1px solid rgba(210, 49, 102, 1);
+    color: rgba(210, 49, 102, 1);
+}
+
+.p1-0 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.1em;
+    margin-bottom: 6px;
+    font-family: "robot500";
+}
+
+.h1-0 {
+    font-size: 57.33px;
+    font-weight: 400;
+    line-height: 69.08px;
+    margin-bottom: 35px;
+    font-family: "fred400";
+    font-weight: 400;
+}
+
+.span1 {
+    font-size: 57.33px;
+    font-weight: 400;
+    line-height: 69.08px;
+    color: rgba(210, 49, 102, 1);
+    font-family: "fred400";
+    font-weight: 800;
+}
+
+.p1-1 {
+    width: 523px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    font-family: "Hind400";
+    color: #0F0101;
+}
+
+.i1-1 {
+    position: relative;
+    top: -400px;
+    left: 300px;
+}
+
+.btn2 {
+    width: 165px;
+    height: 49px;
+    background-color: rgba(210, 49, 102, 1);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.08px;
+    color: white;
+    position: relative;
+    top: -650px;
+    cursor: pointer;
+    transition: .5s;
+    font-family: "Hind700";
+}
+
+.btn2:hover {
+    border: 1px solid rgba(210, 49, 102, 1);
+    background-color: transparent;
+    color: rgba(210, 49, 102, 1);
+    transition: .5s;
+}
+
+.section1 {
+    width: 100%;
+    height: 400px;
+    padding: 100px 231px 100px 252px;
+}
+
+.row1-0 {
+    width: 1117px;
+    height: 200px;
+    display: flex;
+    gap: 39px;
+}
+
+.box1-0 {
+    width: 250px;
+    height: 200px;
+    text-align: center;
+    padding: 33px 26px 27px 26px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.box1-0:hover{
+    transition: .5s;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.i1-2 {
+    margin-bottom: 24px;
+}
+
+.h1-1 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.6px;
+    margin-bottom: 9px;
+    font-family: "Hind600";
+}
+
+.p1-2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.32px;
+    font-family: "Hind400";
+}
+
+.section2 {
+    width: 100%;
+    height: 544px;
+    padding: 141px 906px 146px 252px;
+    background-color: #F2CEDA;
+}
+
+.h1-2 {
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 48.84px;
+    margin-bottom: 16px;
+}
+
+.p1-3 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(21, 1, 1, 1);
+    margin-bottom: 35px;
+}
+
+.btn3 {
+    width: 165px;
+    height: 49px;
+    background-color: rgba(214, 67, 116, 1);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    cursor: pointer;
+    transition: .5s;
+}
+.btn3:hover{
+    background-color: transparent;
+    color: rgba(210, 49, 102, 1);
+    border: 1px solid rgba(210, 49, 102, 1);
+    transition: .5s;
+}
+.i1-3{
+    position: relative;
+    top: -470px;
+    left: 550px;
+}
